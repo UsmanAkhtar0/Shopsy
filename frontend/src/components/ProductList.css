@@ -1,0 +1,26 @@
+.card-list {
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover animation */
+}
+
+.card-list:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+.card-detail {
+    border: none;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Match card corners */
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Custom color (default bootstrap) */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
